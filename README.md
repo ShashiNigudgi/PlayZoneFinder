@@ -1,6 +1,7 @@
 # PlayZoneFinder
 This is my play zone finder app which is exposed to several Rest API's.
 Below are the list of requirements:-
+
 Club owners can register himself and can register all the owned courts(Cricket,badminton,Swimming Pool, etc). 
 Club owners can manage court slots and booking.
 Club owners will approve/decline/modify the court bookings.
