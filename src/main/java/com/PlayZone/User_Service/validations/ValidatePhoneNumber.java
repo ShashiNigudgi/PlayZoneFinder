@@ -18,4 +18,15 @@ public class ValidatePhoneNumber {
              throw new PhoneException("Phone number "+phoneNumber +" is already used, please use other number");
          }
      }
+
+     public void checkPhoneNumberLength(String phoneNumber){
+
+        int max = 10;
+        int phoneLength =  phoneNumber.length();
+         System.out.println("the lenth of phonenumber is : "+phoneLength);
+        if (phoneLength>max || phoneLength<max){
+            throw new PhoneException("Enter the correct number : Max number allowed is 10 ");
+         }
+
+     }
 }

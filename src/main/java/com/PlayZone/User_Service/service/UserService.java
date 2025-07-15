@@ -35,6 +35,7 @@ public class UserService {
 
         validateEmail.checkIfEmailExist(userRequestDto.getEmail());
         validatePhoneNumber.checkIfPhoneExist(userRequestDto.getPhoneNumber());
+        validatePhoneNumber.checkPhoneNumberLength(userRequestDto.getPhoneNumber());
 
         EndUser endUser = new EndUser();
         //dtoToEntity model mapper
